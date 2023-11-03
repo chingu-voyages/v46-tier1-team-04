@@ -50,13 +50,13 @@ header {
     padding: 20px;
 }
 
-.recipe-list {
+/*.recipe-list {
     width: 30%;
     overflow-y: auto;
     max-height: 400px;
     border: 1px solid #ccc;
     padding: 10px;
-}
+}*/
 
 .main-recipe {
     width: 60%;
