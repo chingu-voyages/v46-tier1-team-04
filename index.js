@@ -13,7 +13,7 @@ searchQuery = searchInput.value;
 fetchAPI();
 })
 
-async function   fetchAPI(){
+async function fetchAPI(){
 const baseUrl = `https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${APP_Key}&from=0&to=20`;
 const response = await fetch(baseUrl);
 const data = await response.json();
@@ -34,7 +34,7 @@ function generateHTML(results){
                 result.recipe.url
               }">View Recipe</a>
           </div>
-          <p class="item-data">Calories: ${result.recipe.calories.toFixed(2)}</p>
+          <p class="item-data">Calories: ${result.recipe.calories.toFixed(0)}</p>
         </div> 
         `
     })
