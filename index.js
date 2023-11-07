@@ -11,6 +11,14 @@ searchBtn.addEventListener('click', function(e){
 e.preventDefault()
 searchQuery = searchInput.value;
 fetchAPI();
+
+if (searchQuery.trim() === '') {
+  errorMessage.textContent = 'Please enter an ingredient.';
+  errorMessage.style.display = 'block'; // Display the error message
+} else {
+  errorMessage.style.display = 'none'
+}
+
 })
 
 async function fetchAPI(){

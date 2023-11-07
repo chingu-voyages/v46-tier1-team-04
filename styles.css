@@ -108,10 +108,41 @@ header {
     margin: 10px 0;
 }
 
+
+
 footer {
     background-color: #f1f1f1;
     text-align: center;
     padding: 10px;
-    bottom: 0;
     width: 100%;
+    bottom: 0;
+}
+
+
+.error-message {
+    color: red;
+    font-size: 18px;
+    margin-top: 5px;
+    display: none; /* Initially, hide the error message */
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px; /* Adjust header padding for smaller screens */
+    }
+
+    /* Adjust search button styles for smaller screens */
+    .search-bar button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    main {
+        flex-direction: column; /* Stack content for smaller screens */
+        
+    }
+
+    .recipe-list, .main-recipe {
+        width: 100%; /* Full width for smaller screens */
+    }
 }
