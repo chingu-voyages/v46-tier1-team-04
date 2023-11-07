@@ -1,28 +1,37 @@
-# voyage-tasks
+# Recipe Search App
 
-Your project's `readme` is as important to success as your code. For 
-this reason you should put as much care into its creation and maintenance
-as you would any other component of the application.
+## Introduction
 
-If you are unsure of what should go into the `readme` let this article,
-written by an experienced Chingu, be your starting point - 
-[Keys to a well written README](https://tinyurl.com/yk3wubft).
+Welcome to the Recipe Search App! Our goal is to simplify your cooking journey by providing step-by-step instructions for creating delicious dishes. We're dedicated to making your cooking experience enjoyable and successful.
 
-And before we go there's "one more thing"! Once you decide what to include
-in your `readme` feel free to replace the text we've provided here.
+## Features
 
-> Own it & Make it your Own!
+- Search Recipes: Effortlessly search for recipes by ingredient or meal name to access an extensive collection of dishes.
+- Video Guidance: Each recipe comes with video links for visual guidance, helping you master the art of cooking.
+- Nutritional Data: We provide nutritional information to help you make informed choices about your meals.
 
-## Team Documents
+## Getting Started
 
-You may find these helpful as you work together to organize your project.
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your web browser to launch the app.
 
-- [Team Project Ideas](./docs/team_project_ideas.md)
-- [Team Decision Log](./docs/team_decision_log.md)
+## Usage
 
-Meeting Agenda templates (located in the `/docs` directory in this repo):
+- Enter the ingredients or the name of the meal you want to prepare in the search bar.
+- Click the "Search" button to find a list of matching recipes.
+- Explore the recipes and click on "View Recipe" to access detailed instructions and video guides.
 
-- Meeting - Voyage Kickoff --> ./docs/meeting-voyage_kickoff.docx
-- Meeting - App Vision & Feature Planning --> ./docs/meeting-vision_and_feature_planning.docx
-- Meeting - Sprint Retrospective, Review, and Planning --> ./docs/meeting-sprint_retrospective_review_and_planning.docx
-- Meeting - Sprint Open Topic Session --> ./docs/meeting-sprint_open_topic_session.docx
+## Contributing
+
+We welcome contributions to improve the app and make it even more valuable to our users. Feel free to open issues, submit pull requests, or provide feedback to help us enhance the app.
+
+## Authors
+
+- Federico Murru
+
+
+## Acknowledgments
+
+We would like to thank the open-source community and all contributors for making this app possible.
+
+Enjoy your culinary adventure with the Recipe Search App!
